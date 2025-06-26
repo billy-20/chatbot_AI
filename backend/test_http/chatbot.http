@@ -1,0 +1,7 @@
+### Test de la fonction ask_openai via l'API Flask
+POST http://localhost:5000/chat
+Content-Type: application/json
+
+{
+  "message": "salut "
+}
